@@ -4,63 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:screenOrientation="portrait"
     tools:context="com.example.gabriel.zappin.HomeActivity">
 
 
-    <TextView
-        android:layout_width="343dp"
-        android:layout_height="125dp"
-        android:gravity="center"
-        android:text="Qual produto você quer ?"
-        android:textColor="?attr/colorPrimary"
-        android:textSize="30sp"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="36dp"
-        android:id="@+id/textView"
-        android:layout_marginLeft="16dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.294" />
-
-    <Button
-        android:id="@+id/button"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="221dp"
-        android:layout_height="64dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="65dp"
-        android:background="#ffb700"
-        android:backgroundTint="#ffb700"
-        android:text="Buscar"
-        android:textColor="#ffff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView"
-        app:layout_constraintVertical_bias="0.0"
-        tools:text="Buscar" />
-
-    <SearchView
-        android:id="@+id/searchView"
-        android:layout_width="307dp"
-        android:layout_height="153dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:gravity="center_vertical|center_horizontal|center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.16">
-
-    </SearchView>
 
 
 </android.support.constraint.ConstraintLayout>
