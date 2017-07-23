@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Zappin</string>
-    <string name="title_activity_menu">Zappin | Buscador</string>
+    <string name="app_name">DoBarato</string>
+    <string name="title_activity_menu">DoBarato | Buscador</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
